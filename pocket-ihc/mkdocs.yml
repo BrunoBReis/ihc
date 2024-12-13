@@ -1,1 +1,5 @@
-site_name: My Docs
+site_name: Mapa de Jornada
+
+nav:
+  - Home: index.md
+  - Mapa de Jornada: mapa-jornada.md
