@@ -58,7 +58,42 @@ O **Mapa de História do Usuário** (User Story Map) é uma ferramenta usada no 
 - **Foco:** O mapa de jornada explora a experiência do usuário; o mapa de história do usuário organiza requisitos do produto.
 - **Objetivo:** O mapa de jornada visa melhorar a experiência; o mapa de história do usuário auxilia no planejamento do desenvolvimento.
 
+## Quando usá-los? E por que?
 
+Os mapas de jornada e suas variações são ferramentas indispensáveis em diferentes fases de projetos, e cada tipo tem sua aplicação específica dependendo do contexto e objetivo. A seguir, detalhamos quando utilizá-los, com exemplos e justificativas para cada caso:
+
+### **1. Mapa de Jornada do Usuário (Journey Map)**  
+- **Quando usar:**  
+  - Projetos que buscam identificar pontos de dor (pain points) e momentos de frustração na interação direta do usuário com um produto ou serviço.
+  - Ideal para mapear interações específicas, como o uso de um aplicativo ou a realização de uma compra.  
+- **Exemplo:**  
+  - Em um aplicativo de transporte, um mapa de jornada pode destacar etapas como abrir o app, inserir o destino, escolher um carro e confirmar a corrida.  
+  - **Justificativa:** Ajuda a entender onde os usuários podem abandonar o processo (ex.: dificuldade de inserir o endereço) e orienta melhorias diretas no fluxo.  
+
+### **2. Mapa de Experiência (Experience Map)**  
+- **Quando usar:**  
+  - Projetos que precisam de uma visão ampla de como os usuários interagem com a marca ou serviço em múltiplos canais e contextos.  
+  - Útil para alinhar equipes internas em estratégias de longo prazo.  
+- **Exemplo:**  
+  - Para uma rede de supermercados, o mapa de experiência pode abranger desde a publicidade vista online, passando pela visita à loja física, até o suporte pós-compra.  
+  - **Justificativa:** Isso ajuda a encontrar lacunas na experiência geral do cliente e priorizar investimentos estratégicos (ex.: melhorar o atendimento online).  
+
+### **3. Plano de Serviço (Service Blueprint)**  
+- **Quando usar:**  
+  - Quando a equipe precisa detalhar os processos internos e os bastidores envolvidos na entrega de um serviço ao cliente.  
+  - Essencial para otimizar fluxos internos e conectar operações invisíveis ao cliente com suas interações visíveis.  
+- **Exemplo:**  
+  - Em uma clínica médica, o plano de serviço pode mapear desde o agendamento de consultas até o envio dos exames ao paciente.  
+  - **Justificativa:** Ajuda a alinhar equipes médicas, administrativas e de TI, garantindo uma entrega eficiente e consistente da experiência ao paciente.  
+
+### **4. Mapa de História do Usuário (User Story Map)**  
+- **Quando usar:**  
+  - Em projetos de desenvolvimento ágil, onde o foco está em criar e priorizar funcionalidades para o produto final com base nas necessidades do usuário.  
+- **Exemplo:**  
+  - Em uma plataforma educacional, uma história de usuário pode ser: “Como aluno, quero acompanhar meu progresso para saber onde melhorar.”  
+  - **Justificativa:** Permite organizar requisitos e funcionalidades em fluxos lógicos, garantindo que o desenvolvimento esteja alinhado às prioridades do usuário.  
+
+---
 
 ## Conclusão
 
