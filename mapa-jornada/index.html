@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Mapa de Jornada - Mapa de Jornada</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Mapa de Jornada</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Mapa de Jornada</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href=".." class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" class="nav-link disabled">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="2"><a href="#definicao" class="nav-link">Definição</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#variacoes-do-mapa-de-jornada" class="nav-link">Variações do Mapa de Jornada</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#quando-usa-los-e-por-que" class="nav-link">Quando usá-los? E por que?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#conclusao" class="nav-link">Conclusão</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 id="definicao">Definição</h2>
+<p>Uma definição do <strong>mapa de jornada</strong> oferecida pelo próprio <a href="https://www.nngroup.com/articles/journey-mapping-101/">site</a>:</p>
+<blockquote>
+<p><em>O </em><em>mapa de jornada</em><em> é uma visualização do processo que uma pessoa passa durante a ordem para atingir um objetivo.</em></p>
+</blockquote>
+<h3 id="detalhes">Detalhes</h3>
+<p>Ele detalha as <strong>etapas</strong> que o usuário percorre, incluindo suas ações, pensamentos e emoções ao longo do caminho. O objetivo principal é <strong>compreender a experiência do usuário</strong> de forma holística, identificando pontos de contato, possíveis frustrações e oportunidades de melhoria.</p>
+<p>A construção de um mapa de jornada geralmente envolve:</p>
+<ul>
+<li><strong>Ator</strong>: O perfil do usuário ou persona que está vivenciando a jornada, cujo normalmente é identificado pela <a href="https://www.nngroup.com/articles/persona/">persona</a>.</li>
+<li><strong>Cenário e Expectativas</strong>: A situação específica que o mapa aborda, juntamente com as expectativas do usuário.<ul>
+<li><em>Reais</em>: cenários em que já existem produtos ou serviços</li>
+<li><em>Antecipados</em>: cenários em que ainda não há um produto</li>
+</ul>
+</li>
+<li><strong>Fases da Jornada</strong>: As etapas de alto nível que estruturam a experiência do usuário.</li>
+<li><strong>Ações, Pensamentos e Emoções</strong>: Detalhes sobre o que o usuário faz, pensa e sente em cada fase.<ul>
+<li><em>Ações</em>: Uma narrativa, suas ações, do passo a passo que se teve durante uma fase.</li>
+<li><em>Pensamentos</em>: Motivação que se teve durante as diferentes fases da jornada.</li>
+<li><em>Emoções</em>: Os "altos" e "baixos" obtidos durante a experiência da jornada. </li>
+</ul>
+</li>
+<li><strong>Oportunidades</strong>: Insights e áreas identificadas para melhorias ou inovações.</li>
+</ul>
+<hr />
+<h2 id="variacoes-do-mapa-de-jornada">Variações do Mapa de Jornada</h2>
+<p>Existem variações do mapa de jornada que atendem a diferentes propósitos e contextos, permitindo abordagens mais específicas e adaptadas às necessidades de uma equipe ou projeto. Essas variações podem focar em aspectos como emoções do usuário, fluxos internos de processos, ou até mesmo explorar perspectivas específicas, como a de stakeholders ou equipes internas. Entender essas variações é essencial para escolher a abordagem mais adequada e extrair o máximo valor dessa ferramenta em diferentes cenários.</p>
+<p>O <strong>Mapa de Jornada</strong> (Journey Map) foca em etapas específicas de interação do usuário com um produto ou serviço, detalhando ações, emoções e pontos de contato em uma sequência linear para atingir um objetivo.</p>
+<h3 id="mapa-de-jornada-x-mapa-de-experiencia">Mapa de Jornada x Mapa de Experiência</h3>
+<p>O <strong>Mapa de Experiência</strong> (Experience Map) tem um escopo mais amplo, abrangendo toda a experiência do cliente, incluindo múltiplos canais, contextos e interações, mesmo que não sejam diretamente relacionadas ao produto ou serviço.</p>
+<h4 id="diferencas-principais">Diferenças principais:</h4>
+<ul>
+<li><strong>Escopo:</strong> O mapa de jornada é pontual, enquanto o mapa de experiência é holístico.</li>
+<li><strong>Foco:</strong> O mapa de jornada centra-se no usuário; o mapa de experiência inclui múltiplos stakeholders.</li>
+<li><strong>Objetivo:</strong> O primeiro resolve problemas específicos; o segundo orienta melhorias estratégicas gerais.</li>
+</ul>
+<h3 id="mapa-de-jornada-vs-plano-de-servico">Mapa de Jornada vs. Plano de Serviço</h3>
+<p>O <strong>Plano de Serviço</strong> (Service Blueprint) é uma ferramenta mais técnica e interna, que documenta os processos, recursos e interações necessários para oferecer o serviço. Ele considera tanto os elementos visíveis ao cliente quanto os processos de apoio nos bastidores.</p>
+<h4 id="diferencas-principais_1">Diferenças principais:</h4>
+<ul>
+<li><strong>Foco:</strong> O mapa de jornada é centrado no usuário; o plano de serviço detalha os processos internos necessários para entregar o serviço.</li>
+<li><strong>Visibilidade:</strong> O mapa de jornada representa o que o usuário percebe; o plano de serviço inclui também os processos "invisíveis" ao cliente.</li>
+<li><strong>Objetivo:</strong> O mapa de jornada busca entender e melhorar a experiência do cliente; o plano de serviço mapeia os recursos e fluxos para operacionalizar o serviço.</li>
+</ul>
+<h3 id="mapa-de-jornada-vs-mapa-de-historia-do-usuario">Mapa de Jornada vs. Mapa de História do Usuário</h3>
+<p>O <strong>Mapa de História do Usuário</strong> (User Story Map) é uma ferramenta usada no desenvolvimento ágil para organizar histórias de usuário em um fluxo lógico, ajudando a priorizar funcionalidades e planejar entregas incrementais.</p>
+<h4 id="diferencas-principais_2">Diferenças principais:</h4>
+<ul>
+<li><strong>Escopo:</strong> O mapa de jornada aborda ações e emoções do usuário; o mapa de história do usuário concentra-se em tarefas e funcionalidades.</li>
+<li><strong>Foco:</strong> O mapa de jornada explora a experiência do usuário; o mapa de história do usuário organiza requisitos do produto.</li>
+<li><strong>Objetivo:</strong> O mapa de jornada visa melhorar a experiência; o mapa de história do usuário auxilia no planejamento do desenvolvimento.</li>
+</ul>
+<h2 id="quando-usa-los-e-por-que">Quando usá-los? E por que?</h2>
+<p>Os mapas de jornada e suas variações são ferramentas indispensáveis em diferentes fases de projetos, e cada tipo tem sua aplicação específica dependendo do contexto e objetivo. A seguir, detalhamos quando utilizá-los, com exemplos e justificativas para cada caso:</p>
+<h4 id="1-mapa-de-jornada-do-usuario-journey-map"><strong>1. Mapa de Jornada do Usuário (Journey Map)</strong></h4>
+<ul>
+<li><strong>Quando usar:</strong>  </li>
+<li>Projetos que buscam identificar pontos de dor (pain points) e momentos de frustração na interação direta do usuário com um produto ou serviço.</li>
+<li>Ideal para mapear interações específicas, como o uso de um aplicativo ou a realização de uma compra.  </li>
+<li><strong>Exemplo:</strong>  </li>
+<li>Em um aplicativo de transporte, um mapa de jornada pode destacar etapas como abrir o app, inserir o destino, escolher um carro e confirmar a corrida.  </li>
+<li><strong>Justificativa:</strong> Ajuda a entender onde os usuários podem abandonar o processo (ex.: dificuldade de inserir o endereço) e orienta melhorias diretas no fluxo.  </li>
+</ul>
+<h4 id="2-mapa-de-experiencia-experience-map"><strong>2. Mapa de Experiência (Experience Map)</strong></h4>
+<ul>
+<li><strong>Quando usar:</strong>  </li>
+<li>Projetos que precisam de uma visão ampla de como os usuários interagem com a marca ou serviço em múltiplos canais e contextos.  </li>
+<li>Útil para alinhar equipes internas em estratégias de longo prazo.  </li>
+<li><strong>Exemplo:</strong>  </li>
+<li>Para uma rede de supermercados, o mapa de experiência pode abranger desde a publicidade vista online, passando pela visita à loja física, até o suporte pós-compra.  </li>
+<li><strong>Justificativa:</strong> Isso ajuda a encontrar lacunas na experiência geral do cliente e priorizar investimentos estratégicos (ex.: melhorar o atendimento online).  </li>
+</ul>
+<h4 id="3-plano-de-servico-service-blueprint"><strong>3. Plano de Serviço (Service Blueprint)</strong></h4>
+<ul>
+<li><strong>Quando usar:</strong>  </li>
+<li>Quando a equipe precisa detalhar os processos internos e os bastidores envolvidos na entrega de um serviço ao cliente.  </li>
+<li>Essencial para otimizar fluxos internos e conectar operações invisíveis ao cliente com suas interações visíveis.  </li>
+<li><strong>Exemplo:</strong>  </li>
+<li>Em uma clínica médica, o plano de serviço pode mapear desde o agendamento de consultas até o envio dos exames ao paciente.  </li>
+<li><strong>Justificativa:</strong> Ajuda a alinhar equipes médicas, administrativas e de TI, garantindo uma entrega eficiente e consistente da experiência ao paciente.  </li>
+</ul>
+<h4 id="4-mapa-de-historia-do-usuario-user-story-map"><strong>4. Mapa de História do Usuário (User Story Map)</strong></h4>
+<ul>
+<li><strong>Quando usar:</strong>  </li>
+<li>Em projetos de desenvolvimento ágil, onde o foco está em criar e priorizar funcionalidades para o produto final com base nas necessidades do usuário.  </li>
+<li><strong>Exemplo:</strong>  </li>
+<li>Em uma plataforma educacional, uma história de usuário pode ser: “Como aluno, quero acompanhar meu progresso para saber onde melhorar.”  </li>
+<li><strong>Justificativa:</strong> Permite organizar requisitos e funcionalidades em fluxos lógicos, garantindo que o desenvolvimento esteja alinhado às prioridades do usuário.  </li>
+</ul>
+<hr />
+<h2 id="conclusao">Conclusão</h2>
+<p>Os mapas de jornada são ferramentas valiosas no design de experiência do usuário (UX), pois permitem uma compreensão profunda das necessidades e comportamentos dos usuários, orientando o desenvolvimento de produtos e serviços mais alinhados às suas expectativas.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
