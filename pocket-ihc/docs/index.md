@@ -1,17 +1,12 @@
-# Welcome to MkDocs
+## Integrantes
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- Bruno Bragança dos Reis
+    - Mat:221007902
+- David Klein Levy
+    - Mat:222015097
+- Fábio Gabriel da Silva Barbosa
+    - Mat:222006712
+- Luis Eduardo Castro Mendes de Lima
+    - Mat:221008285
+- Matheus Rodrigues da Silva
+    - Mat:222007012
