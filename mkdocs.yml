@@ -105,3 +105,5 @@ nav:
   - Guia de Acessibilidade:
     - WCAG: guia-wcag.md
     - CEWEB: guia-ceweb.md
+    - Design de Serviço: guia-design-de-servico.md
+    - Qualidade de Interface: guia-qualidade-de-interface.md
