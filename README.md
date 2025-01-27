@@ -16,7 +16,6 @@ pip install -r requirements.txt
 para ver o como esta o projeto faça as etapas acima e rode:
 ```bash
 
-cd pocket-ihc
 mkdocs serve
 
 ```
