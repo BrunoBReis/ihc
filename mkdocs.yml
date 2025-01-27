@@ -39,7 +39,7 @@ theme:
     - content.code.annotate
     - content.code.copy
     # - content.code.select
-    # - content.footnote.tooltips
+    - content.footnote.tooltips
     # - content.tabs.link
     - content.tooltips
     # - header.autohide
@@ -92,7 +92,16 @@ plugins:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
 
+
+markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - footnotes
 # Page tree
 nav:
   - Home: index.md
   - Mapa Jornada: mapa-jornada.md
+  - Guia de Acessibilidade:
+    - WCAG: guia-wcag.md
+    - CEWEB: guia-ceweb.md
