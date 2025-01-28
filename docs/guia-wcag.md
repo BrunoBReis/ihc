@@ -1,17 +1,22 @@
-# Guia de Acessibilidade para Desenvolvedores - WCAG 2.2
+# Guia de Acessibilidade para Desenvolvedores - WCAG 2.2 e CEWEB
 
 ## Aparência
 - [ ] **Adicionar instrução** que não **dependa exclusivamente da cor**. <a id="TEC1" href="#RP1">[^1]</a>
 - [ ] **Adicionar informação** (como gráficos e diagramas) que não **dependa exclusivamente da cor**. <a id="TEC1" href="#RP1">[^1]</a>
+- [ ] **Evitar o uso exclusivo de cores** para transmitir informações ou indicar ações. Utilize também textos ou ícones para complementar a informação. [^11]
+- [ ] **Assegurar contraste adequado** entre o texto e o fundo para garantir legibilidade, especialmente para pessoas com baixa visão. [^11]
 
 ## Texto
 - [ ] **Permitir o redimensionamento de texto** sem perda de funcionalidade ou clareza (até 200%). <a id="TEC2" href="#RP2">[^2]</a>
 - [ ] **Garantir contraste suficiente** entre texto e fundo (razão de contraste mínima de 4.5:1 para texto normal). <a id="TEC3" href="#RP3">[^3]</a>
+- [ ] **Fornecer alternativas textuais** para imagens, ícones e outros elementos não textuais, permitindo que leitores de tela descrevam esses elementos para usuários com deficiência visual. [^11]
+- [ ] **Utilizar uma linguagem clara e simples**, facilitando a compreensão para pessoas com diferentes níveis de letramento e para aquelas com deficiências cognitivas. [^11]
 
 ## Navegação e Interação
 - [ ] **Certificar-se de que todos os elementos interativos** podem ser acessados pelo teclado. <a id="TEC4" href="#RP4">[^4]</a>
 - [ ] **Fornecer indicadores visuais claros** para o foco do teclado. <a id="TEC4" href="#RP4">[^4]</a>
 - [ ] **Evitar componentes sensíveis ao tempo** que não permitem ajuste ou controle pelo usuário. <a id="TEC5" href="#RP5">[^5]</a>
+- [ ] **Fornecer feedback imediato** para ações do usuário, como confirmações de envio de formulários ou alertas de erros, assegurando que as mensagens sejam percebidas por todos. [^11]
 
 ## Multimídia
 - [ ] **Adicionar legendas sincronizadas** em conteúdos multimídia como vídeos. <a id="TEC6" href="#RP6">[^6]</a>
@@ -24,6 +29,7 @@
 ## Feedback ao Usuário
 - [ ] **Oferecer mensagens de erro claras e compreensíveis** em formulários. <a id="TEC9" href="#RP9">[^9]</a>
 - [ ] **Garantir que o estado dos elementos interativos** seja claramente indicado (por exemplo, ativado/desativado). <a id="TEC10" href="#RP10">[^10]</a>
+- [ ] **Indicar claramente o foco do teclado**, garantindo que usuários que navegam via teclado saibam onde estão na página. [^11]
 
 [^1]:
     WCAG 2.2 Understanding Docs. SC 1.4.1 Use of Color (Level A). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html). Acesso em: 27 Jan. 2025.
@@ -54,3 +60,6 @@
 
 [^10]:
     WCAG 2.2 Understanding Docs. SC 4.1.2 Name, Role, Value (Level A). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html](https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html). Acesso em: 27 Jan. 2025.
+
+[^11]:
+    Guia de Boas Práticas para Acessibilidade Digital. Disponível em: [https://ceweb.br/projetos/bruk/guia-html/](https://ceweb.br/projetos/bruk/guia-html/). Acesso em: 27 Jan. 2025.
