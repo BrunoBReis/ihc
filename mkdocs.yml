@@ -103,7 +103,6 @@ nav:
   - Home: index.md
   - Mapa Jornada: mapa-jornada.md
   - Guia de Acessibilidade:
-    - WCAG: guia-wcag.md
-    - CEWEB: guia-ceweb.md
+    - WCAG e CEWEB: guia-wcag.md
     - Design de Serviço: guia-design-de-servico.md
     - Qualidade de Interface: guia-qualidade-de-interface.md
